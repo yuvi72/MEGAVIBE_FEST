@@ -12,7 +12,9 @@
     <link rel="manifest" href="./img/favicon_io/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
         integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/crousel.css">
     <link rel="stylesheet" href="./css/main.css">
+
     <title>MEGAVIBE FEST &#124; Feel the Everlasting Beat </title>
 </head>
 
@@ -20,8 +22,8 @@
     <header>
         <nav>
             <div class="header-logo">
-                <a href="./index.html">
-                    <img src="img/logo.png" alt="logo" width="70vw" >
+                <a href="https://100millionmusic.com/" target="_blank">
+                    <img src="img/logo.png" alt="logo" width="80vw" >
                 </a>
             </div>
             <div class="nav-main">
@@ -49,7 +51,7 @@
                     <p>Get ready to witness history in the making as Prayagraj, Uttar Pradesh hosts its first-ever hip-hop extravaganza. Immerse yourself in the rhythm of the streets, where beats meet culture. <br>
                         Join us for a groundbreaking event that celebrates the vibrant spirit of hip-hop, uniting talents and urban culture in the heart of India.
                     </p>
-                    <a class="btn" href="#">Get your tickets</a>
+                    <a class="btn" href="#ticket">Get your tickets</a>
                 </div>
                 <div class="hero-sub-text">
                     <h2>30th <br> december <br> 2023</h2>
@@ -66,10 +68,48 @@
     <!-- Main Section -->
     <main>
         <!-- Performers -->
-        <section id="performers">
-            <div class="main">
+
+         <section id="performers">
+            <div class="main crousel">
                 <h1 class="performers-heading">Performing Artist</h1>
-                <ul class="cards">
+                <div class="container">
+                    <div class="card-carousel">
+                      <div class="card" id="1">
+                        <div class="image-container"></div>
+                        <p>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                      </div>
+                      <div class="card" id="2">
+                        <div class="image-container"></div>
+                        <p>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                      </div>
+                      <div class="card" id="3">
+                        <div class="image-container"></div>
+                        <p>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                      </div>  
+                      <div class="card" id="4">
+                        <div class="image-container"></div>
+                        <p>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                      </div>
+                      <div class="card" id="5">
+                        <div class="image-container"></div>
+                        <p>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                      </div>
+                      <div class="card" id="6">
+                        <div class="image-container"></div>
+                        <p>6 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                      </div>
+                      <div class="card" id="7">
+                        <div class="image-container"></div>
+                        <p>7 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                      </div>
+                      <div class="card" id="8">
+                        <div class="image-container"></div>
+                        <p>8 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                      </div>
+                    </div>
+                    <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+                  </div>
+                <!-- <ul class="cards">
                     <li class="cards_item">
                         <div class="cardd">
                             <div class="card_image"><img
@@ -183,7 +223,7 @@
                         </div>
                     </li>
                     
-                </ul>
+                </ul> -->
             </div>
         </section>
         <!-- Special Artist -->
@@ -239,7 +279,7 @@
                         src="https://images.pexels.com/photos/1267317/pexels-photo-1267317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt=""></div>
             </div>
-        </section>
+        </section> 
 
         <!-- Ticket -->
         <section id="ticket">
@@ -255,7 +295,7 @@
                         <div class="border starter-card--top">
                             <h3>Stag </h3>
                             <h3>&#x20B9 500-1000</h3>
-                            <button class="btn-card">Get a ticket</button>
+                            <a href="https://wa.me/918299273500?text=I%20would%20like%20to%20buy%20tickets%20for%20stag%20entry"><button class="btn-card">Get a ticket</button></a>
                         </div>
                         <img src="img/stag.png"
                             alt="Regular Image">
@@ -265,7 +305,7 @@
                             <h3>Couple</h3>
                             </h3>
                             <h3>&#x20B9 700-1500</h3>
-                            <button class="btn-card">Get a ticket</button>
+                            <a href="https://wa.me/918299273500?text=I%20would%20like%20to%20buy%20tickets%20for%20couple%20entry"><button class="btn-card">Get a ticket</button></a>
                         </div>
                         <img src="img/couple.png"
                             alt="VIP Image">
@@ -273,7 +313,7 @@
                     
                 </div>
             </section>
-        </section>
+        </section> 
 
         <!-- Testimonial -->
         <!-- <section id="testimonial">
@@ -370,6 +410,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/crousel.js"></script>
     <script src="./js/script.js"></script>
 
 </body>
