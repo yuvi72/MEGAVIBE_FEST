@@ -598,46 +598,6 @@ div.card ul {
   margin-right: 2rem;
 }
 
-/* Contact */
-
-/* section#contact {
-    padding: 8rem 1rem;
-    text-align: center;
-}
-
-#contact a {
-    font-size: 1.3rem;
-    display: inline-block;
-}
-
-#contact a:first-of-type {
-    margin-right: 1rem;
-}
-
-
-#contact h2 {
-    border: 2px dotted var(--color-main);
-    color: var(--color-main);
-    display: inline-block;
-    padding: .5rem 5rem;
-    box-shadow: 2px 1px 5px rgba(0, 0, 0, .4);
-    margin: 0;
-    font-size: 6.5rem;
-    line-height: 1.1;
-    transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) .2s;
-}
-
-#contact h2:hover {
-    transform: translateY(-1rem);
-}
-
-#contact p {
-    font-size: 2
-    rem;
-    margin-bottom: 1.4rem;
-    color: var(--color-main);
-} */
-
 /* Fixed Time */
 
 div.time {
@@ -827,6 +787,9 @@ footer a {
 
   .footer-distributed .footer-center i {
     margin-left: 0;
+  }
+  .event-date h2 {
+    margin: 50px !important;
   }
 }
 
@@ -1066,6 +1029,9 @@ footer a {
   div.time {
     padding: 1rem;
   }
+  div.special-artist-container img {
+    left: 0rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -1184,6 +1150,9 @@ footer a {
 
   div.footer-center {
     margin: 2rem 0;
+  }
+  #main-hero {
+    display: none;
   }
 }
 
