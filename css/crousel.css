@@ -82,30 +82,30 @@ html {
 }
 
 .card:nth-of-type(1) .image-container {
-  background-image: url(/img/koml.png);
+  background-image: url(/koml.png);
 }
 
 .card:nth-of-type(2) .image-container {
-  background-image: url(/img/sunny.png);
+  background-image: url(/sunny.png);
 }
 
 .card:nth-of-type(3) .image-container {
-  background-image: url(/img/meetoride.png);
+  background-image: url(/meetoride.png);
 }
 .card:nth-of-type(4) .image-container {
-  background-image: url(/img/dj_joyu.png);
+  background-image: url(/dj_joyu.png);
 }
 .card:nth-of-type(5) .image-container {
-  background-image: url(/img/shweta.png);
+  background-image: url(/shweta.png);
 }
 .card:nth-of-type(6) .image-container {
-  background-image: url(/img/kaustub.png);
+  background-image: url(/kaustub.png);
 }
 .card:nth-of-type(7) .image-container {
-  background-image: url(/img/prakhar.png);
+  background-image: url(/prakhar.png);
 }
 .card:nth-of-type(8) .image-container {
-  background-image: url(/img/tfo.png);
+  background-image: url(/tfo.png);
 }
 
 .image-container {
