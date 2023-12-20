@@ -72,6 +72,9 @@ div.nav-main ul li:not(:last-of-type) {
 div.nav-main ul li:first-of-type {
   margin-left: 1.5rem;
 }
+.tic-btn {
+  display: none;
+}
 
 div.br {
   width: 1px;
@@ -280,13 +283,13 @@ li.cards_item:hover {
 
 @media (min-width: 40rem) {
   .cards_item {
-    width: 50%;
+    width: 25%;
   }
 }
 
 @media (min-width: 56rem) {
   .cards_item {
-    width: 25%;
+    width: 16%;
   }
 }
 
@@ -791,6 +794,15 @@ footer a {
   .event-date h2 {
     margin: 50px !important;
   }
+  .nav-menu .mob-hd {
+    display: none !important;
+  }
+  .tic-btn {
+    display: flex;
+  }
+  .for-mob {
+    display: flex;
+  }
 }
 
 /* Media queries */
@@ -846,6 +858,7 @@ footer a {
 
   div.nav-main ul {
     padding: inherit;
+    display: none;
   }
 
   div#main-hero {
@@ -967,6 +980,9 @@ footer a {
   .grid-items img {
     width: 18rem;
     height: 18rem;
+  }
+  .cards_item {
+    width: 50%;
   }
 }
 
@@ -1224,8 +1240,8 @@ footer a {
   }
 
   .grid-items img {
-    width: 26rem;
-    height: 20rem;
+    width: 17.8rem;
+    height: 14rem;
   }
 
   .footer-distributed .footer-center i.fa-envelope {
@@ -1235,4 +1251,7 @@ footer a {
   .footer-distributed .footer-center i {
     margin-left: -0.8rem;
   }
+  /* .perfi {
+    width: 50%;
+  } */
 }
